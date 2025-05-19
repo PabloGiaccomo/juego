@@ -7,10 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/buttonIrANiveles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Ir a Niveles"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,13 +21,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- Este es el contenedor principal donde se aplican los insets -->
         <FrameLayout
             android:id="@+id/contentFrame"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-            <!-- Aquí van los elementos de tu interfaz de usuario -->
 
         </FrameLayout>
     </RelativeLayout>
